@@ -9,4 +9,4 @@ arr2.onUpdate = function() {
   TweenMax.set('body', {webkitClipPath:'polygon('+arr1[0]+'%'+arr1[1]+'%,'+arr1[2]+'%'+arr1[3]+'%,'+arr1[4]+'%'+arr1[5]+'%)'});
 };
 
-TweenLite.to(arr1,3, arr2);
+TweenMax.to(arr1, 3, arr2).repeat(-1);
