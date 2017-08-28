@@ -16,7 +16,7 @@ void ofApp::setup(){
   // gradient.addColor( ofColor::white );
   // gradient.addColor( ofColor::black );
 
-  string cmd = "electron /Users/davydka/of/apps/Sites/hybrid/electron &";
+  string cmd = "electron ~/of/apps/Sites/hybrid/electron --enable-transparent-visuals --show-fps-counter --disable-gpu-blacklist --enable-gpu-rasterization --enable-gpu-memory-buffer-compositor-resources --enable-gpu-memory-buffer-video-frames --enable-native-gpu-memory-buffers --enable-zero-copy &";
   system(cmd.c_str());
 }
 
