@@ -16,7 +16,8 @@ void ofApp::setup(){
   // gradient.addColor( ofColor::white );
   // gradient.addColor( ofColor::black );
 
-  string cmd = "electron ~/of/apps/Sites/hybrid/electron --enable-transparent-visuals --show-fps-counter --disable-gpu-blacklist --enable-gpu-rasterization --enable-gpu-memory-buffer-compositor-resources --enable-gpu-memory-buffer-video-frames --enable-native-gpu-memory-buffers --enable-zero-copy &";
+  // string cmd = "electron ~/of/apps/Sites/hybrid/electron --enable-transparent-visuals --show-fps-counter --disable-gpu-blacklist --enable-gpu-rasterization --enable-gpu-memory-buffer-compositor-resources --enable-gpu-memory-buffer-video-frames --enable-native-gpu-memory-buffers --enable-zero-copy &";
+  string cmd = "electron ~/of/apps/Sites/hybrid/electron --enable-transparent-visuals --enable-gpu-rasterization --enable-zero-copy &";
   system(cmd.c_str());
 }
 
